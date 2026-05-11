@@ -25,7 +25,8 @@ int main(){
         for (int i = 1; i < n; i++) d[i] += d[i - 1];
         for (int i = 0; i < n; i++) a[i] += d[i];
         reverse(all(a));
-        for (int i = 0; i < n; i++) cout << a[i] << ' '; cout << '\n';
+        for (int i = 0; i < n; i++) cout << a[i] << ' '; 
+        cout << '\n';
     } 
 
     return 0;
